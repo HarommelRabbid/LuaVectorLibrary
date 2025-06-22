@@ -485,7 +485,7 @@ static const luaL_Reg v4_methods[] = {
 
 
 static const luaL_Reg math_lib[] = {
-	{"vector2", lua_vector2},
+    {"vector2", lua_vector2},
     {"vector3", lua_vector3},
     {"vector4", lua_vector4},
     {NULL, NULL}
